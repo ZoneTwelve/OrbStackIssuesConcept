@@ -22,7 +22,11 @@ docker-compose up -d
 I removed the database part in the docker-compose.yml
 Also removed the Internal network interface
 
-## Reference
+# Result
+
+I can not reproduce the issue, the composer works fine.
+
+# Reference
 
 - [django-composer-example](https://github.com/ZoneTwelve/django-composer-example)
 - [OrbStack Documentation](https://docs.orbstack.dev/install#colima-context)
