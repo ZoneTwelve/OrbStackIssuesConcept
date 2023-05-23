@@ -8,8 +8,6 @@ services:
     env_file:
       - .env
     restart: unless-stopped
-    depends_on:
-      - db
     volumes:
       - ./app/${APP_NAME}:/src
     ports:
